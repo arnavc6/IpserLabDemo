@@ -21,7 +21,9 @@ MacOS: in Terminal, go to the directory you want to copy the project into, then 
 
 Windows: TBA
   
-Visual studio code: open a new window, click "clone git repository", paste the link into the prompt
+Visual studio code (frontend): open a new window, click "clone git repository", paste the link into the prompt
+
+NetBeans: go to the Teams option in the top bar, go Remote -> Clone, paste the link into the repository field
 
 Once this step is done, you'll have a copy of the code on your computer and you'll be able to access and edit it, though it's important to note that none of your changes will be seen by anyone else unless you push them (more on that later)
   
