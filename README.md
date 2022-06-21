@@ -45,13 +45,17 @@ Usage: git commit -m <message detailing changes> (Terminal), top bar teams -> co
 Purpose: push committed changes to the github repository
 Usage: git push (Terminal), left sidebar source control -> 3 dot menu -> push (VS Code), top bar teams -> remote -> push (NetBeans)
   
-
-
-
-  
-As we are working as a team. 
-
-It would be convenient if we were to work in branches. So that the main version doesn't get any problems which will be used in production whereas the branches will be checked and merged and then deployed into production. 
+## Branching
+Branching allows you and others to test your changes before they get pushed to the main repository so that the main version doesn't get any problems which will be used in production. Here are some commands:
+### Branch
+Purpose: Create a new branch to make your own changes on
+Usage: git branch <branch name> (Terminal), command/ctrl+shift+P -> type and click "Git: checkout to" -> Create new branch (VS Code), top bar teams -> branch/tag -> create branch (NetBeans)
+### Checkout
+Purpose: Switch between branches
+Usage: git checkout -b <new branch name> (Terminal), command/ctrl+shift+P -> type and click "Git: checkout to" -> select branch of choice (VS Code), top bar teams -> branch/tag -> switch to branch (NetBeans)
+### Merge
+Purpose: push changes from one branch to another
+Usage: will be done by GitHub managers, not necessary to know on your end
   
 
   
