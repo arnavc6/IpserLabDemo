@@ -26,20 +26,28 @@ Visual studio code (frontend): open a new window, click "clone git repository", 
 NetBeans: go to the Teams option in the top bar, go Remote -> Clone, paste the link into the repository field (https://netbeans.apache.org/kb/docs/ide/git.html)
 
 Once this step is done, you'll have a copy of the code on your computer and you'll be able to access and edit it, though it's important to note that none of your changes will be seen by anyone else unless you push them (more on that later)
-  
-Basic Git Commands:
-  
-1. git pull
-2. git add
-3. git commit
-4. git push
-  
-follow the same sequence of commands (else can end up in merge error)
 
-Pull - It is used to pull changes made to the repository while you were working on your changes
-Add - It is to tell github that content is being added to your repository
-Commit - It is committing changes to the repository with a message to keep track of what was pushes at that point of time.
-Push - It pushes that committed changes to the github repository.
+# Git Commands
+  
+## Making changes 
+Follow this sequence of commands in order (otherwise it can end up in a merge error) 
+  
+### Pull
+Purpose: pull changes made to the repository while you were working on your changes
+Usage: git pull (Terminal), left sidebar source control -> 3 dot menu -> pull (VS Code), top bar teams -> remote -> pull (NetBeans)
+### Add
+Purpose: tell github that content is being added to your repository
+Usage: git add <filename>, most commonly git add . to stage all your changes (Terminal), top bar teams -> add (NetBeans), mostly done automatically in VS Code
+### Commit
+Purpose: commit changes to the repository with a message to keep track of what was pushes at that point of time
+Usage: git commit -m <message detailing changes> (Terminal), top bar teams -> commit (NetBeans), done with push in VS Code
+### Push
+Purpose: push committed changes to the github repository
+Usage: git push (Terminal), left sidebar source control -> 3 dot menu -> push (VS Code), top bar teams -> remote -> push (NetBeans)
+  
+
+
+
   
 As we are working as a team. 
 
