@@ -62,7 +62,7 @@ Usage: git checkout -b <new branch name> (Terminal), command/ctrl+shift+P -> typ
 ### Merge
 Purpose: push changes from one branch to another
   
-Usage: will be done by GitHub managers, not necessary to know on your end
+Usage (will be done by website and server team leads): git checkout <master branch>, git merge <branch with edits>
   
 
   
