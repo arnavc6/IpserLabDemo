@@ -64,6 +64,6 @@ Purpose: push changes from one branch to another
   
 Usage (will be done by website and server team leads): git checkout <master branch>, git merge <branch with edits>
   
-
+(insert random other line)
   
 
